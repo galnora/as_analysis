@@ -9,7 +9,7 @@ from Bio.Seq import Seq
 class Config:
     def __init__(self):
         self.canonical_gtf_file = '/Users/galno/tmp_for_local_run/Arabidopsis_thaliana.TAIR10.60.gtf'
-        self.bam_directory = '/Volumes/bam'
+        self.bam_directory = '/Volumes/bam/tfiis-upf'
         self.working_directory = '/Users/galno/as_2'
         self.genotypes = ['Col-0', 'tfiis', 'upf1', 'upf3', 'tfiis-upf1', 'tfiis-upf3']
         self.treatments = ['NT', '1h', '1d']
